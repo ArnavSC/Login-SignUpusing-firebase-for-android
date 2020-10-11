@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login With your Account"
+            android:textSize="20dp"
+            >
+
+        </TextView>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_marginTop="10dp">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Login With Phone Number"
+            android:textSize="20dp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/phoneNumber"
+            android:inputType="text"
+            android:hint="Phone Number (+91)"
+            android:layout_marginTop="10dp">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <Button
+            android:id="@+id/getotp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="get otp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/otp"
+            android:inputType="number"
+            android:hint="One Time Password(OTP)"
+            android:layout_marginTop="10dp">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <Button
+            android:id="@+id/mlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Login" />
+    </LinearLayout>
+</RelativeLayout>

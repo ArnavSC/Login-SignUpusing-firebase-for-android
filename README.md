@@ -1,4 +1,4 @@
-#Login/SignUp using Firebase for android
+# Login/SignUp using Firebase for android
 
 A LogIn and SignUp application using mobile number as well as email for android with real time database using firebase.
 

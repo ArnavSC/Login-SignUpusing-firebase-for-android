@@ -1,4 +1,5 @@
-#Login/SignUp uusing Firebase for android
+#Login/SignUp using Firebase for android
+
 A LogIn and SignUp application using mobile number as well as email for android with real time database using firebase.
 
 ![WhatsApp Image 2020-10-11 at 11 16 59 PM (1)](https://user-images.githubusercontent.com/69712646/95686111-934dd780-0c19-11eb-8204-129fa1d42593.jpeg)
